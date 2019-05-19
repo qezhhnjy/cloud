@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="/js/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" href="/css/bootstrap-4.1.1-dist/css/bootstrap.css">
+    <script src="/js/bootstrap-4.1.1-dist/js/popper.min.js"></script>
+    <script src="/js/bootstrap-4.1.1-dist/js/bootstrap.js"></script>
+    <style>
+        /* Make the image fully responsive */
+        .carousel-inner img, a {
+            width: 100%;
+            height: 100%;
+            /*margin-left: 35%;*/
+        }
+
+        body {
+            background: url(/img/24.jpg) no-repeat center;
+            background-size: 100%;
+        }
+
+    </style>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#single').change(function () {
+                var result = $('#preview');
+                if (typeof FileReader === 'undefined') result.innerHTML = '抱歉,您的浏览器不支持FileReader';
+                var reader = new FileReader();
+                reader.readAsDataURL(this.files[0]);
+                reader.onload = function (e) {
+                    console.log(result);
+                    result[0].src = this.result;
+                }
+            });
+            $('#submit').click(function () {
+                if ($('#single').val() === '') {
+                    $('#info').html('请选择文件');
+                    return;
+                }
+                $.ajax({
+                    type: 'post',
+                    url: '/up',
+
+                    //processData，contentType的设置都需要
+                    cache: false,
+                    processData: false,
+                    contentType: false,
+
+                    data: new FormData($('form')[0]),
+                    success: function (data) {
+                        $('#info').html(data).hide(2000);
+                    },
+                    error: function (e) {
+                        $('#info').html(e.responseText);
+                    }
+                });
+
+            });
+            for (var a = 1; a < 23; a++) {
+                $('ul').append('<li data-target="#demo" data-slide-to="' + a + '"></li>');
+                $('.carousel-inner').append('<div class="carousel-item">\n' +
+                    '            <img src="/img/' + (a + 1) + '.jpg">\n' +
+                    '            <div class="carousel-caption">\n' +
+                    '                <h3>Sara</h3>\n' +
+                    '            </div>\n' +
+                    '        </div>');
+            }
+            $('#multi_submit').click(function () {
+                if ($('#multi').val() === '') {
+                    $('#multi_info').html('请选择文件');
+                    return;
+                }
+                $.ajax({
+                    type: 'post',
+                    url: '/multi_up',
+
+                    //processData，contentType的设置都需要
+                    cache: false,
+                    processData: false,
+                    contentType: false,
+
+                    data: new FormData($('form')[1]),
+                    success: function (data) {
+                        $('#multi_info').html(data).hide(2000);
+                    },
+                    error: function (e) {
+                        $('#multi_info').html(e.responseText);
+                    }
+                });
+            });
+            $('#down').click(function () {
+                var url = "/down";
+                var fileName = $('#single').val();
+                if (fileName === '') {
+                    $('#info').html('请选择文件');
+                    return;
+                }
+                var form = $("<form></form>").attr("action", url).attr("method", "post");
+                form.append($("<input/>").attr("type", "hidden").attr("name", "fileName").attr("value", fileName));
+                form.appendTo('body').submit().remove();
+            });
+
+            $('#multi_down').click(function () {
+                var url = "/multi_down";
+                var form = $("<form></form>").attr("action", url).attr("method", "post");
+                // form.append($("<input/>").attr("type", "hidden").attr("name", "fileName").attr("value", fileName));
+                form.appendTo('body').submit().remove();
+            });
+        });
+    </script>
+</head>
+<body>
+<div style="float: left;width: 31%;">
+    <h1>Multiple Code Lines</h1>
+    <h3 class="bg-success text-white"><strong>文件上传和下载页面</strong></h3>
+    <span class="bg-success text-white">单个文件上传和预览</span><img id="preview" class="img-thumbnail" style="width: 200px" src="/img/1.jpg"/>
+    <br/>
+    <br/>
+    <form id="up">
+        <input class="btn-primary" name="file" type="file" id="single"/>
+        <input class="btn btn-info" id="submit" type="button" value="上传"/>
+        <input type="button" class="btn btn-success" id="down" value="下载"/>
+    </form>
+    <p id="info"></p>
+</div>
+<div style="float: right;width: 40%">
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- 指示符 -->
+        <ul style="margin-left: 10%" class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+        </ul>
+
+        <!-- 轮播图片 -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/img/1.jpg">
+                <div class="carousel-caption">
+                    <h3>Sara</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- 左右切换按钮 -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev" data-pause="false">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+</div>
+<div style="float: left;width: 31%;">
+    <h3 class="bg-success text-white">多文件上传和下载</h3>
+    <form id="multi_up">
+        <p id="multi_info"></p>
+        <!--multiple通过val()只能获取到第一个文件的路径-->
+        <input class="btn-primary" multiple="multiple" name="file" type="file" id="multi"/>
+        <input class="btn btn-info" id="multi_submit" type="button" value="上传"/>
+        <input type="button" class="btn btn-success" id="multi_down" value="下载"/>
+    </form>
+</div>
+</body>
+</html>

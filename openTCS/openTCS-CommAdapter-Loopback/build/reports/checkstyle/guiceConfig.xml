@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.16">
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-CommAdapter-Loopback/src/guiceConfig/java/org/opentcs/virtualvehicle/LoopbackCommAdapterModule.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+</checkstyle>

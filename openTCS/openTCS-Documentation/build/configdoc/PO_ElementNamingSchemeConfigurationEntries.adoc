@@ -1,0 +1,81 @@
+.Configuration options with prefix 'elementnamingscheme'
+[cols="2,1,3", options="header"]
+|===
+|Key
+|Type
+|Description
+
+|pointPrefix
+|String
+|The default prefix for a new point element.
+
+|pointNumberPattern
+|String
+|The numbering pattern for a new point element.
+
+|pathPrefix
+|String
+|The default prefix for a new path element.
+
+|pathNumberPattern
+|String
+|The numbering pattern for a new path element.
+
+|locationTypePrefix
+|String
+|The default prefix for a new location type element.
+
+|locationTypeNumberPattern
+|String
+|The numbering pattern for a new location type element.
+
+|locationPrefix
+|String
+|The default prefix for a new location element.
+
+|locationNumberPattern
+|String
+|The numbering pattern for a new location element.
+
+|linkPrefix
+|String
+|The default prefix for a new link element.
+
+|linkNumberPattern
+|String
+|The numbering pattern for a new link element.
+
+|blockPrefix
+|String
+|The default prefix for a new block.
+
+|blockNumberPattern
+|String
+|The numbering pattern for a new block.
+
+|groupPrefix
+|String
+|The default prefix for a new group.
+
+|groupNumberPattern
+|String
+|The numbering pattern for a new group.
+
+|layoutPrefix
+|String
+|The default prefix for a new layout element.
+
+|layoutNumberPattern
+|String
+|The numbering pattern for a new layout element.
+
+|vehiclePrefix
+|String
+|The default prefix for a new vehicle.
+
+|vehicleNumberPattern
+|String
+|The numbering pattern for a new vehicle.
+
+|===
+

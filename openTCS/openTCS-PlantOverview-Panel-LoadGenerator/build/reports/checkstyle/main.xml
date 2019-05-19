@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.16">
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Panel-LoadGenerator/src/main/java/org/opentcs/guing/plugins/panels/loadgenerator/ContinuousLoadPanel.java">
+<error line="122" column="3" severity="warning" message="Return 次数 2 次（最大允許為void方法/構造函數/ 拉姆达： 1 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+<error line="143" column="78" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+<error line="151" column="75" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+<error line="243" column="3" severity="warning" message="Return 次数 4 次（最大允许非空虚方法/ 拉姆达： 3 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+<error line="291" column="3" severity="warning" message="Return 次数 5 次（最大允许非空虚方法/ 拉姆达： 3 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Panel-LoadGenerator/src/main/java/org/opentcs/guing/plugins/panels/loadgenerator/ContinuousLoadPanelConfiguration.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Panel-LoadGenerator/src/main/java/org/opentcs/guing/plugins/panels/loadgenerator/ContinuousLoadPanelFactory.java">
+<error line="43" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Panel-LoadGenerator/src/main/java/org/opentcs/guing/plugins/panels/loadgenerator/DriveOrderStructure.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Panel-LoadGenerator/src/main/java/org/opentcs/guing/plugins/panels/loadgenerator/DriveOrderTableModel.java">
+<error line="80" column="3" severity="warning" message="Return 次数 5 次（最大允许非空虚方法/ 拉姆达： 3 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+<error line="128" column="3" severity="warning" message="Return 次数 2 次（最大允許為void方法/構造函數/ 拉姆达： 1 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Panel-LoadGenerator/src/main/java/org/opentcs/guing/plugins/panels/loadgenerator/DriveOrderXMLStructure.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Panel-LoadGenerator/src/main/java/org/opentcs/guing/plugins/panels/loadgenerator/ExplicitOrderBatchGenerator.java">
+<error line="58" column="56" severity="info" message="&apos;dispatcherService&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="85" column="17" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Panel-LoadGenerator/src/main/java/org/opentcs/guing/plugins/panels/loadgenerator/LocationComboBoxRenderer.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Panel-LoadGenerator/src/main/java/org/opentcs/guing/plugins/panels/loadgenerator/OrderBatchCreator.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Panel-LoadGenerator/src/main/java/org/opentcs/guing/plugins/panels/loadgenerator/OrderGenerationTrigger.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Panel-LoadGenerator/src/main/java/org/opentcs/guing/plugins/panels/loadgenerator/PropertyTableModel.java">
+<error line="120" column="3" severity="warning" message="Return 次数 2 次（最大允許為void方法/構造函數/ 拉姆达： 1 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Panel-LoadGenerator/src/main/java/org/opentcs/guing/plugins/panels/loadgenerator/RandomOrderBatchCreator.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Panel-LoadGenerator/src/main/java/org/opentcs/guing/plugins/panels/loadgenerator/SingleOrderGenTrigger.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Panel-LoadGenerator/src/main/java/org/opentcs/guing/plugins/panels/loadgenerator/ThresholdOrderGenTrigger.java">
+<error line="67" column="58" severity="info" message="&apos;objectService&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="104" column="3" severity="warning" message="Return 次数 2 次（最大允許為void方法/構造函數/ 拉姆达： 1 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Panel-LoadGenerator/src/main/java/org/opentcs/guing/plugins/panels/loadgenerator/TimeoutOrderGenTrigger.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Panel-LoadGenerator/src/main/java/org/opentcs/guing/plugins/panels/loadgenerator/TransportOrderData.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Panel-LoadGenerator/src/main/java/org/opentcs/guing/plugins/panels/loadgenerator/TransportOrderTableModel.java">
+<error line="197" column="48" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Panel-LoadGenerator/src/main/java/org/opentcs/guing/plugins/panels/loadgenerator/TransportOrderXMLStructure.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Panel-LoadGenerator/src/main/java/org/opentcs/guing/plugins/panels/loadgenerator/package-info.java">
+</file>
+</checkstyle>

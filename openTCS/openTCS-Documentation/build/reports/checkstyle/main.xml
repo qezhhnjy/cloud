@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.16">
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Documentation/src/main/java/org/opentcs/documentation/ConfigDocGenerator.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="44" severity="info" message="未注释的Main方法。" source="com.puppycrawl.tools.checkstyle.checks.UncommentedMainCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Documentation/src/main/java/org/opentcs/documentation/HttpSamples.java">
+<error line="53" severity="info" message="未注释的Main方法。" source="com.puppycrawl.tools.checkstyle.checks.UncommentedMainCheck"/>
+<error line="149" severity="warning" message="本行字符数 108个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="241" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="241" column="11" severity="info" message="多余修饰符： &apos;static&apos;。" source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="242" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="243" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="244" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="245" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="246" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="247" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Documentation/src/main/java/org/opentcs/documentation/JAXBSchemaGenerator.java">
+<error line="41" severity="info" message="未注释的Main方法。" source="com.puppycrawl.tools.checkstyle.checks.UncommentedMainCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Documentation/src/main/java/org/opentcs/documentation/SamplesGenerator.java">
+<error line="53" severity="info" message="未注释的Main方法。" source="com.puppycrawl.tools.checkstyle.checks.UncommentedMainCheck"/>
+<error line="61" column="36" severity="info" message="避免内嵌块。" source="com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"/>
+<error line="65" column="32" severity="info" message="避免内嵌块。" source="com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"/>
+<error line="69" column="40" severity="info" message="避免内嵌块。" source="com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"/>
+<error line="73" column="39" severity="info" message="避免内嵌块。" source="com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"/>
+<error line="77" column="31" severity="info" message="避免内嵌块。" source="com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"/>
+<error line="81" column="37" severity="info" message="避免内嵌块。" source="com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"/>
+<error line="334" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="334" column="11" severity="info" message="多余修饰符： &apos;static&apos;。" source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="336" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="337" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="338" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="339" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="340" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="341" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+</checkstyle>

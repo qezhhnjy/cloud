@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.16">
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Panel-ResourceAllocation/src/main/java/org/opentcs/guing/plugins/panels/allocation/AllocationTreeCellRenderer.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Panel-ResourceAllocation/src/main/java/org/opentcs/guing/plugins/panels/allocation/AllocationTreeModel.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Panel-ResourceAllocation/src/main/java/org/opentcs/guing/plugins/panels/allocation/ResourceAllocationPanel.java">
+<error line="36" severity="info" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="75" column="3" severity="warning" message="Return 次数 2 次（最大允許為void方法/構造函數/ 拉姆达： 1 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+<error line="93" severity="warning" message="本行字符数 105个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="116" column="3" severity="warning" message="Return 次数 5 次（最大允許為void方法/構造函數/ 拉姆达： 1 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+<error line="141" severity="warning" message="本行字符数 111个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="146" severity="warning" message="本行字符数 105个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="161" severity="warning" message="本行字符数 112个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="184" severity="warning" message="本行字符数 119个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="185" severity="warning" message="本行字符数 113个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="202" severity="warning" message="本行字符数 139个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="208" column="5" severity="warning" message="实例属性定义顺序错误。" source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+<error line="208" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="209" column="5" severity="warning" message="实例属性定义顺序错误。" source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+<error line="209" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="210" column="5" severity="warning" message="实例属性定义顺序错误。" source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+<error line="210" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="211" column="5" severity="warning" message="实例属性定义顺序错误。" source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+<error line="211" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Panel-ResourceAllocation/src/main/java/org/opentcs/guing/plugins/panels/allocation/ResourceAllocationPanelConfiguration.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Panel-ResourceAllocation/src/main/java/org/opentcs/guing/plugins/panels/allocation/ResourceAllocationPanelFactory.java">
+<error line="59" column="12" severity="info" message="return 值周围不必要的小括号。" source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+</file>
+</checkstyle>

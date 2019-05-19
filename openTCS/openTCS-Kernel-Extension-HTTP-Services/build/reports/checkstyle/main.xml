@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.16">
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-HTTP-Services/src/main/java/org/opentcs/kernel/extensions/adminwebapi/AdminWebApi.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-HTTP-Services/src/main/java/org/opentcs/kernel/extensions/adminwebapi/AdminWebApiConfiguration.java">
+<error line="21" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-HTTP-Services/src/main/java/org/opentcs/kernel/extensions/adminwebapi/v1/Status.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="17" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="19" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="21" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-HTTP-Services/src/main/java/org/opentcs/kernel/extensions/adminwebapi/v1/V1RequestHandler.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-HTTP-Services/src/main/java/org/opentcs/kernel/extensions/adminwebapi/v1/Version.java">
+<error line="19" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="21" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="23" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-HTTP-Services/src/main/java/org/opentcs/kernel/extensions/servicewebapi/Authenticator.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-HTTP-Services/src/main/java/org/opentcs/kernel/extensions/servicewebapi/HttpConstants.java">
+<error line="15" severity="info" message="接口应描述一种类型，从而必须拥有方法。" source="com.puppycrawl.tools.checkstyle.checks.design.InterfaceIsTypeCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-HTTP-Services/src/main/java/org/opentcs/kernel/extensions/servicewebapi/RequestHandler.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-HTTP-Services/src/main/java/org/opentcs/kernel/extensions/servicewebapi/ServiceWebApi.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-HTTP-Services/src/main/java/org/opentcs/kernel/extensions/servicewebapi/ServiceWebApiConfiguration.java">
+<error line="21" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-HTTP-Services/src/main/java/org/opentcs/kernel/extensions/servicewebapi/v1/V1RequestHandler.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="54" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-HTTP-Services/src/main/java/org/opentcs/kernel/extensions/servicewebapi/v1/order/OrderHandler.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="166" column="40" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-HTTP-Services/src/main/java/org/opentcs/kernel/extensions/servicewebapi/v1/order/binding/Destination.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="23" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="27" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="31" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-HTTP-Services/src/main/java/org/opentcs/kernel/extensions/servicewebapi/v1/order/binding/Property.java">
+<error line="14" severity="info" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="21" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="25" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-HTTP-Services/src/main/java/org/opentcs/kernel/extensions/servicewebapi/v1/order/binding/Transport.java">
+<error line="25" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="28" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="31" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="37" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="41" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-HTTP-Services/src/main/java/org/opentcs/kernel/extensions/servicewebapi/v1/status/RequestStatusHandler.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-HTTP-Services/src/main/java/org/opentcs/kernel/extensions/servicewebapi/v1/status/StatusEventDispatcher.java">
+<error line="133" column="14" severity="info" message="&apos;IllegalArgumentException&apos;需要Javadoc注释 @throws 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="146" severity="info" message="TODO块： &apos;TODO|XXX&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+<error line="164" severity="info" message="TODO块： &apos;TODO|XXX&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-HTTP-Services/src/main/java/org/opentcs/kernel/extensions/servicewebapi/v1/status/binding/Destination.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="23" severity="info" message="缺少 @author 标签。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="25" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="29" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="33" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="37" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="98" column="5" severity="warning" message="Return 次数 6 次（最大允许非空虚方法/ 拉姆达： 3 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-HTTP-Services/src/main/java/org/opentcs/kernel/extensions/servicewebapi/v1/status/binding/OrderStatusMessage.java">
+<error line="27" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="30" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="33" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="36" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="40" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="102" column="46" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+<error line="162" column="5" severity="warning" message="Return 次数 8 次（最大允许非空虚方法/ 拉姆达： 3 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-HTTP-Services/src/main/java/org/opentcs/kernel/extensions/servicewebapi/v1/status/binding/Property.java">
+<error line="13" severity="info" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="20" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="24" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-HTTP-Services/src/main/java/org/opentcs/kernel/extensions/servicewebapi/v1/status/binding/StatusMessage.java">
+<error line="32" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="36" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-HTTP-Services/src/main/java/org/opentcs/kernel/extensions/servicewebapi/v1/status/binding/StatusMessageList.java">
+<error line="24" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="28" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-HTTP-Services/src/main/java/org/opentcs/kernel/extensions/servicewebapi/v1/status/binding/TransportOrderState.java">
+<error line="19" severity="info" message="Javadoc 描述块不应为空。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="25" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="28" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="31" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="34" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="38" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="42" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="97" severity="warning" message="本行字符数 101个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="125" column="30" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-HTTP-Services/src/main/java/org/opentcs/kernel/extensions/servicewebapi/v1/status/binding/VehicleState.java">
+<error line="21" severity="info" message="Javadoc 描述块不应为空。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="27" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="30" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="33" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="36" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="40" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="44" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="47" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="50" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="53" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="56" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="59" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="180" column="30" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-HTTP-Services/src/main/java/org/opentcs/kernel/extensions/servicewebapi/v1/status/binding/VehicleStatusMessage.java">
+<error line="24" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="28" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="31" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="34" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="37" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="41" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="99" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="102" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="104" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="112" column="45" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+<error line="114" column="46" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+<error line="132" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="136" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="140" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-HTTP-Services/src/main/java/org/opentcs/kernel/extensions/servicewebapi/v1/status/filter/TransportOrderFilter.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="16" severity="info" message="Javadoc 描述块不应为空。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-HTTP-Services/src/main/java/org/opentcs/kernel/extensions/servicewebapi/v1/status/filter/VehicleFilter.java">
+<error line="14" severity="info" message="Javadoc 描述块不应为空。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+</checkstyle>

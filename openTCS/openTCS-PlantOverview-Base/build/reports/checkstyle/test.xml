@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.16">
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Base/src/test/java/org/opentcs/guing/components/properties/type/AnglePropertyTest.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="13" severity="warning" message="不应使用 &apos;.*&apos; 形式的导入 - org.junit.jupiter.params.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="14" severity="warning" message="不应使用 &apos;.*&apos; 形式的导入 - org.junit.jupiter.params.provider.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="28" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="76" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Base/src/test/java/org/opentcs/guing/components/properties/type/LengthPropertyTest.java">
+<error line="13" severity="warning" message="不应使用 &apos;.*&apos; 形式的导入 - org.junit.jupiter.params.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="14" severity="warning" message="不应使用 &apos;.*&apos; 形式的导入 - org.junit.jupiter.params.provider.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="26" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="58" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Base/src/test/java/org/opentcs/guing/components/properties/type/PercentPropertyTest.java">
+<error line="21" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="30" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Base/src/test/java/org/opentcs/guing/components/properties/type/SpeedPropertyTest.java">
+<error line="13" severity="warning" message="不应使用 &apos;.*&apos; 形式的导入 - org.junit.jupiter.params.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="14" severity="warning" message="不应使用 &apos;.*&apos; 形式的导入 - org.junit.jupiter.params.provider.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="26" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="57" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+</checkstyle>

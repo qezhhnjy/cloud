@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.16">
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-KernelControlCenter/src/main/java/org/opentcs/kernelcontrolcenter/AboutDialog.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="28" column="44" severity="info" message="&apos;modal&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-KernelControlCenter/src/main/java/org/opentcs/kernelcontrolcenter/ControlCenterInfoHandler.java">
+<error line="49" column="3" severity="warning" message="静态属性定义顺序错误。" source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-KernelControlCenter/src/main/java/org/opentcs/kernelcontrolcenter/ControlCenterInfoHandlerFactory.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-KernelControlCenter/src/main/java/org/opentcs/kernelcontrolcenter/KernelControlCenter.java">
+<error line="68" severity="info" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="134" column="10" severity="warning" message="参数共： 8个，最多：7个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.ParameterNumberCheck"/>
+<error line="141" severity="warning" message="本行字符数 103个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="142" severity="warning" message="本行字符数 105个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="212" column="5" severity="warning" message="禁止捕获： &apos;Exception&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalCatchCheck"/>
+<error line="356" column="50" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-KernelControlCenter/src/main/java/org/opentcs/kernelcontrolcenter/KernelControlCenterApplication.java">
+<error line="167" column="24" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-KernelControlCenter/src/main/java/org/opentcs/kernelcontrolcenter/exchange/DefaultServiceCallWrapper.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="91" column="7" severity="warning" message="禁止捕获： &apos;Exception&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalCatchCheck"/>
+<error line="114" column="3" severity="warning" message="Return 次数 5 次（最大允许非空虚方法/ 拉姆达： 3 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-KernelControlCenter/src/main/java/org/opentcs/kernelcontrolcenter/exchange/KernelEventFetcher.java">
+<error line="205" column="7" severity="warning" message="禁止捕获： &apos;Exception&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalCatchCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-KernelControlCenter/src/main/java/org/opentcs/kernelcontrolcenter/exchange/SslConfiguration.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-KernelControlCenter/src/main/java/org/opentcs/kernelcontrolcenter/util/KernelControlCenterConfiguration.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-KernelControlCenter/src/main/java/org/opentcs/kernelcontrolcenter/vehicles/AdapterFactoryCellRenderer.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-KernelControlCenter/src/main/java/org/opentcs/kernelcontrolcenter/vehicles/CommAdapterComboBox.java">
+<error line="38" column="3" severity="warning" message="Return 次数 2 次（最大允許為void方法/構造函數/ 拉姆达： 1 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-KernelControlCenter/src/main/java/org/opentcs/kernelcontrolcenter/vehicles/CommandListCellRenderer.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-KernelControlCenter/src/main/java/org/opentcs/kernelcontrolcenter/vehicles/DetailPanel.java">
+<error line="148" severity="info" message="TODO块： &apos;TODO|XXX&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+<error line="209" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="269" severity="warning" message="本行字符数 111个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="272" severity="warning" message="本行字符数 104个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="275" severity="warning" message="本行字符数 101个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="335" severity="warning" message="本行字符数 106个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="336" severity="warning" message="本行字符数 119个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-KernelControlCenter/src/main/java/org/opentcs/kernelcontrolcenter/vehicles/DriverGUI.java">
+<error line="120" column="3" severity="warning" message="Return 次数 2 次（最大允許為void方法/構造函數/ 拉姆达： 1 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+<error line="132" column="5" severity="warning" message="禁止捕获： &apos;Exception&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalCatchCheck"/>
+<error line="205" column="5" severity="warning" message="禁止捕获： &apos;Exception&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalCatchCheck"/>
+<error line="217" column="46" severity="warning" message="Return 次数 4 次（最大允許為void方法/構造函數/ 拉姆达： 1 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+<error line="242" column="7" severity="warning" message="禁止捕获： &apos;Exception&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalCatchCheck"/>
+<error line="270" column="5" severity="warning" message="禁止捕获： &apos;Exception&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalCatchCheck"/>
+<error line="278" column="75" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+<error line="284" severity="warning" message="本行字符数 114个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="294" column="7" severity="warning" message="禁止捕获： &apos;Exception&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalCatchCheck"/>
+<error line="320" column="5" severity="warning" message="禁止捕获： &apos;Exception&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalCatchCheck"/>
+<error line="344" column="5" severity="warning" message="禁止捕获： &apos;Exception&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalCatchCheck"/>
+<error line="623" severity="warning" message="本行字符数 103个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="629" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="631" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="632" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-KernelControlCenter/src/main/java/org/opentcs/kernelcontrolcenter/vehicles/LocalVehicleEntry.java">
+<error line="100" column="10" severity="info" message="多余修饰符： &apos;static&apos;。" source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-KernelControlCenter/src/main/java/org/opentcs/kernelcontrolcenter/vehicles/LocalVehicleEntryPool.java">
+<error line="83" column="3" severity="warning" message="Return 次数 2 次（最大允許為void方法/構造函數/ 拉姆达： 1 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+<error line="94" severity="warning" message="本行字符数 116个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="97" severity="warning" message="本行字符数 123个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="99" severity="warning" message="本行字符数 114个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="104" column="5" severity="warning" message="禁止捕获： &apos;Exception&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalCatchCheck"/>
+<error line="132" column="3" severity="warning" message="Return 次数 2 次（最大允許為void方法/構造函數/ 拉姆达： 1 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+<error line="159" column="32" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-KernelControlCenter/src/main/java/org/opentcs/kernelcontrolcenter/vehicles/LogTableModel.java">
+<error line="70" column="72" severity="info" message="lambda 值周围不必要的小括号。" source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="78" column="3" severity="warning" message="Return 次数 4 次（最大允许非空虚方法/ 拉姆达： 3 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-KernelControlCenter/src/main/java/org/opentcs/kernelcontrolcenter/vehicles/SingleCellEditor.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-KernelControlCenter/src/main/java/org/opentcs/kernelcontrolcenter/vehicles/VehicleCommAdapterFactoryTableCellRenderer.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-KernelControlCenter/src/main/java/org/opentcs/kernelcontrolcenter/vehicles/VehicleTableModel.java">
+<error line="93" column="3" severity="warning" message="静态属性定义顺序错误。" source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+<error line="97" column="3" severity="warning" message="静态属性定义顺序错误。" source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+<error line="171" column="9" severity="warning" message="禁止捕获： &apos;Exception&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalCatchCheck"/>
+<error line="183" column="3" severity="warning" message="Return 次数 7 次（最大允许非空虚方法/ 拉姆达： 3 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+<error line="224" column="3" severity="warning" message="Return 次数 4 次（最大允许非空虚方法/ 拉姆达： 3 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+<error line="233" severity="warning" message="本行字符数 107个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="249" column="3" severity="warning" message="Return 次数 2 次（最大允許為void方法/構造函數/ 拉姆达： 1 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-KernelControlCenter/src/main/java/org/opentcs/kernelcontrolcenter/vehicles/package-info.java">
+</file>
+</checkstyle>

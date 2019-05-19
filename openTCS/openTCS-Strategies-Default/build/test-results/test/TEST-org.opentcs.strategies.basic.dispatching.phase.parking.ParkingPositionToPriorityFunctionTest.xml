@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.opentcs.strategies.basic.dispatching.phase.parking.ParkingPositionToPriorityFunctionTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-03-15T05:47:35" hostname="fuzy" time="0.006">
+  <properties/>
+  <testcase name="returnsNullForNonParkingPosition" classname="org.opentcs.strategies.basic.dispatching.phase.parking.ParkingPositionToPriorityFunctionTest" time="0.002"/>
+  <testcase name="returnsPriorityForParkingPositionWithDecimalProperty" classname="org.opentcs.strategies.basic.dispatching.phase.parking.ParkingPositionToPriorityFunctionTest" time="0.003"/>
+  <testcase name="returnsNullForParkingPositionWithNonDecimalProperty" classname="org.opentcs.strategies.basic.dispatching.phase.parking.ParkingPositionToPriorityFunctionTest" time="0.0"/>
+  <testcase name="returnsNullForParkingPositionWithoutPriorityProperty" classname="org.opentcs.strategies.basic.dispatching.phase.parking.ParkingPositionToPriorityFunctionTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

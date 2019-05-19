@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.16">
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Themes-Default/src/main/java/org/opentcs/guing/plugins/themes/DefaultLocationTheme.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="32" column="31" severity="warning" message="名称 &apos;path&apos; 必须匹配表达式： &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Themes-Default/src/main/java/org/opentcs/guing/plugins/themes/StatefulImageVehicleTheme.java">
+<error line="67" column="9" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Themes-Default/src/main/java/org/opentcs/guing/plugins/themes/StatelessImageVehicleTheme.java">
+<error line="35" severity="warning" message="本行字符数 103个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="35" column="3" severity="warning" message="静态属性定义顺序错误。" source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+</file>
+</checkstyle>

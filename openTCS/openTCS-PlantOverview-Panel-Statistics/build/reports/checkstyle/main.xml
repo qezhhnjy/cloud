@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.16">
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Panel-Statistics/src/main/java/org/opentcs/guing/plugins/panels/statistics/AnalysisData.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Panel-Statistics/src/main/java/org/opentcs/guing/plugins/panels/statistics/OrderStats.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Panel-Statistics/src/main/java/org/opentcs/guing/plugins/panels/statistics/OrdersTableModel.java">
+<error line="95" column="3" severity="warning" message="Return 次数 5 次（最大允许非空虚方法/ 拉姆达： 3 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Panel-Statistics/src/main/java/org/opentcs/guing/plugins/panels/statistics/PointStats.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Panel-Statistics/src/main/java/org/opentcs/guing/plugins/panels/statistics/PointsTableModel.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Panel-Statistics/src/main/java/org/opentcs/guing/plugins/panels/statistics/StatisticsPanel.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Panel-Statistics/src/main/java/org/opentcs/guing/plugins/panels/statistics/StatisticsPanelConfiguration.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Panel-Statistics/src/main/java/org/opentcs/guing/plugins/panels/statistics/StatisticsPanelFactory.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Panel-Statistics/src/main/java/org/opentcs/guing/plugins/panels/statistics/Stats.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Panel-Statistics/src/main/java/org/opentcs/guing/plugins/panels/statistics/TimePeriodFormat.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Panel-Statistics/src/main/java/org/opentcs/guing/plugins/panels/statistics/VehicleStats.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Panel-Statistics/src/main/java/org/opentcs/guing/plugins/panels/statistics/VehiclesTableModel.java">
+<error line="95" column="3" severity="warning" message="Return 次数 5 次（最大允许非空虚方法/ 拉姆达： 3 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-PlantOverview-Panel-Statistics/src/main/java/org/opentcs/guing/plugins/panels/statistics/package-info.java">
+</file>
+</checkstyle>

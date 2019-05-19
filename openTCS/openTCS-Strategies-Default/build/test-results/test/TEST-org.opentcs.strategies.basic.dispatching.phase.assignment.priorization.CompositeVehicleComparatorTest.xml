@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.opentcs.strategies.basic.dispatching.phase.assignment.priorization.CompositeVehicleComparatorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-03-15T05:47:35" hostname="fuzy" time="0.006">
+  <properties/>
+  <testcase name="sortsByNameEnergylevelRoutingCost" classname="org.opentcs.strategies.basic.dispatching.phase.assignment.priorization.CompositeVehicleComparatorTest" time="0.004"/>
+  <testcase name="sortsByNameAndEnergylevel" classname="org.opentcs.strategies.basic.dispatching.phase.assignment.priorization.CompositeVehicleComparatorTest" time="0.0"/>
+  <testcase name="sortNamesUpForOtherwiseEqualInstances" classname="org.opentcs.strategies.basic.dispatching.phase.assignment.priorization.CompositeVehicleComparatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,20 @@
+eureka:
+  client:
+    service-url:
+     defaultZone: http://localhost:8765/eureka/
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        git:
+#        这个git上面目录下的config-client-dev.properties文件能够通过
+#        localhost:8888/config-client-dev.properties正常访问其他的如test.properties
+#        则只能通过/test/properties获取其xml格式，应该是spring对配置文件的一种约定
+#        目前发现的是，有‘-’的文件格式都可以直接获取...
+          uri: https://gitee.com/fzyszsz/mmall_learning
+          search-paths: src/main/resources
+  application:
+    name: config
+

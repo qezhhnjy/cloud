@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.16">
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Impl-Configuration-cfg4j/src/main/java/org/opentcs/configuration/cfg4j/CachedConfigurationSource.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="62" column="5" severity="warning" message="禁止捕获： &apos;Exception&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalCatchCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Impl-Configuration-cfg4j/src/main/java/org/opentcs/configuration/cfg4j/Cfg4jConfigurationBindingProvider.java">
+<error line="38" severity="warning" message="本行字符数 101个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Impl-Configuration-cfg4j/src/main/java/org/opentcs/configuration/cfg4j/PeriodicalReloadStrategy.java">
+</file>
+</checkstyle>

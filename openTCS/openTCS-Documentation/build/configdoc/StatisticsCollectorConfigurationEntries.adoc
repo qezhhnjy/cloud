@@ -1,0 +1,13 @@
+.Configuration options with prefix 'statisticscollector'
+[cols="2,1,3", options="header"]
+|===
+|Key
+|Type
+|Description
+
+|enable
+|Boolean
+|Whether to enable the statistics collector.
+
+|===
+

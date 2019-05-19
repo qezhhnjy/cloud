@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.opentcs.kernel.extensions.xmlhost.status.binding.TCSStatusMessageSetTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-03-15T05:47:12" hostname="fuzy" time="0.476">
+  <properties/>
+  <testcase name="shouldMapToOrderStatusMessage" classname="org.opentcs.kernel.extensions.xmlhost.status.binding.TCSStatusMessageSetTest" time="0.476"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[三月 15, 2019 1:47:12 下午 org.opentcs.kernel.extensions.xmlhost.status.binding.TCSStatusMessageSetTest shouldMapToOrderStatusMessage
+信息: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tcsStatusMessageSet timeStamp="2019-03-15T13:47:12.327+08:00">
+    <statusMessage xsi:type="orderStatusMessage" orderName="TOrder-0001" orderState="ACTIVE" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <destination locationName="Storage 01" operation="Load cargo" state="PRISTINE"/>
+        <destination locationName="Storage 02" operation="Unload cargo" state="PRISTINE"/>
+        <property key="waitBefore" value="Unload"/>
+    </statusMessage>
+</tcsStatusMessageSet>
+
+]]></system-err>
+</testsuite>

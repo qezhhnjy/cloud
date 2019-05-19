@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.16">
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-API-Injection/src/main/java/org/opentcs/customizations/ConfigurableInjectionModule.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-API-Injection/src/main/java/org/opentcs/customizations/controlcenter/ControlCenterInjectionModule.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-API-Injection/src/main/java/org/opentcs/customizations/controlcenter/package-info.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-API-Injection/src/main/java/org/opentcs/customizations/kernel/KernelInjectionModule.java">
+<error line="72" severity="warning" message="本行字符数 101个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-API-Injection/src/main/java/org/opentcs/customizations/kernel/package-info.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-API-Injection/src/main/java/org/opentcs/customizations/package-info.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-API-Injection/src/main/java/org/opentcs/customizations/plantoverview/PlantOverviewInjectionModule.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-API-Injection/src/main/java/org/opentcs/customizations/plantoverview/package-info.java">
+</file>
+</checkstyle>

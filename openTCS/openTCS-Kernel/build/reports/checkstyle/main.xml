@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.16">
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/BusBackedEventHub.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/GlobalKernelSync.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/KernelApplicationConfiguration.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/KernelStarter.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/KernelState.java">
+<error line="178" column="29" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+<error line="187" column="29" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+<error line="484" severity="info" message="TODO块： &apos;TODO|XXX&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/KernelStateModelling.java">
+<error line="71" column="49" severity="info" message="&apos;globalSyncObject&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="73" column="30" severity="info" message="&apos;model&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="77" column="68" severity="info" message="&apos;extensions&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/KernelStateOnline.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/KernelStateOperating.java">
+<error line="146" column="3" severity="warning" message="参数共： 18个，最多：7个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.ParameterNumberCheck"/>
+<error line="146" column="49" severity="info" message="&apos;globalSyncObject&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="148" column="30" severity="info" message="&apos;model&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="149" column="43" severity="info" message="&apos;orderPool&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="154" column="31" severity="info" message="&apos;router&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="155" column="34" severity="info" message="&apos;scheduler&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="156" column="35" severity="info" message="&apos;dispatcher&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="157" column="51" severity="info" message="&apos;controllerPool&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="158" column="42" severity="info" message="&apos;scriptFileManager&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="159" column="65" severity="info" message="&apos;kernelExecutor&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="160" column="41" severity="info" message="&apos;orderCleanerTask&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="161" column="68" severity="info" message="&apos;extensions&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="162" column="42" severity="info" message="&apos;attachmentManager&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="163" column="39" severity="info" message="&apos;vehicleService&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="331" severity="info" message="TODO块： &apos;TODO|XXX&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+<error line="918" severity="info" message="TODO块： &apos;TODO|XXX&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+<error line="958" column="3" severity="warning" message="Return 次数 5 次（最大允许非空虚方法/ 拉姆达： 3 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/KernelStateShutdown.java">
+<error line="38" column="55" severity="info" message="&apos;globalSyncObject&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="40" column="36" severity="info" message="&apos;model&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/OrderCleanerTask.java">
+<error line="61" column="6" severity="info" message="&apos;kernel&apos; 的无用标签 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="65" column="52" severity="info" message="&apos;globalSyncObject&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="66" column="46" severity="info" message="&apos;orderPool&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="67" column="62" severity="info" message="&apos;orderCleanupApprovals&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="68" column="61" severity="info" message="&apos;sequenceCleanupApprovals&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="113" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="119" column="5" severity="warning" message="Return 次数 5 次（最大允许非空虚方法/ 拉姆达： 3 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+<error line="145" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="151" column="5" severity="warning" message="Return 次数 4 次（最大允许非空虚方法/ 拉姆达： 3 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/OrderPoolConfiguration.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/Queries.java">
+<error line="27" column="82" severity="warning" message="名称 &apos;allQueries&apos; 必须匹配表达式： &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/SslConfiguration.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/StandardKernel.java">
+<error line="101" severity="warning" message="本行字符数 102个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="137" severity="warning" message="本行字符数 143个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="138" column="37" severity="info" message="&apos;eventBus&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="407" column="53" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/extensions/controlcenter/AboutDialog.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="25" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/extensions/controlcenter/ControlCenterConfiguration.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/extensions/controlcenter/ControlCenterInfoHandler.java">
+<error line="46" column="3" severity="warning" message="静态属性定义顺序错误。" source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/extensions/controlcenter/ControlCenterInfoHandlerFactory.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/extensions/controlcenter/KernelControlCenter.java">
+<error line="79" severity="info" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="132" severity="warning" message="本行字符数 103个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="133" severity="warning" message="本行字符数 105个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/extensions/controlcenter/vehicles/AdapterFactoryCellRenderer.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/extensions/controlcenter/vehicles/AttachmentManager.java">
+<error line="159" column="3" severity="warning" message="Return 次数 2 次（最大允許為void方法/構造函數/ 拉姆达： 1 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+<error line="224" column="3" severity="warning" message="Return 次数 2 次（最大允許為void方法/構造函數/ 拉姆达： 1 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+<error line="309" severity="warning" message="本行字符数 107个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/extensions/controlcenter/vehicles/CommAdapterComboBox.java">
+<error line="33" column="3" severity="warning" message="Return 次数 2 次（最大允許為void方法/構造函數/ 拉姆达： 1 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/extensions/controlcenter/vehicles/CommandListCellRenderer.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/extensions/controlcenter/vehicles/DetailPanel.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/extensions/controlcenter/vehicles/DriverGUI.java">
+<error line="226" column="46" severity="warning" message="Return 次数 3 次（最大允許為void方法/構造函數/ 拉姆达： 1 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+<error line="269" column="75" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+<error line="570" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="572" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="573" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="574" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="575" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/extensions/controlcenter/vehicles/LogTableModel.java">
+<error line="70" column="72" severity="info" message="lambda 值周围不必要的小括号。" source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="78" column="3" severity="warning" message="Return 次数 4 次（最大允许非空虚方法/ 拉姆达： 3 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/extensions/controlcenter/vehicles/NullVehicleCommAdapterFactory.java">
+<error line="14" severity="info" message="Javadoc 描述块不应为空。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/extensions/controlcenter/vehicles/SingleCellEditor.java">
+<error line="48" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="59" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="122" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/extensions/controlcenter/vehicles/VehicleCommAdapterFactoryTableCellRenderer.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/extensions/controlcenter/vehicles/VehicleEntry.java">
+<error line="21" severity="info" message="Javadoc 描述块不应为空。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="28" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="34" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="36" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="38" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="114" column="10" severity="info" message="多余修饰符： &apos;static&apos;。" source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/extensions/controlcenter/vehicles/VehicleEntryPool.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/extensions/controlcenter/vehicles/VehicleTableModel.java">
+<error line="91" column="3" severity="warning" message="静态属性定义顺序错误。" source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+<error line="95" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="95" column="3" severity="warning" message="静态属性定义顺序错误。" source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+<error line="162" column="3" severity="warning" message="Return 次数 7 次（最大允许非空虚方法/ 拉姆达： 3 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+<error line="204" column="3" severity="warning" message="Return 次数 4 次（最大允许非空虚方法/ 拉姆达： 3 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+<error line="228" column="3" severity="warning" message="Return 次数 2 次（最大允許為void方法/構造函數/ 拉姆达： 1 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/extensions/controlcenter/vehicles/package-info.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/package-info.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/persistence/InvalidModelException.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/persistence/ModelPersister.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/persistence/XMLFileModelPersister.java">
+<error line="119" column="3" severity="warning" message="Return 次数 2 次（最大允許為void方法/構造函數/ 拉姆达： 1 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/persistence/XMLModel002Builder.java">
+<error line="120" column="37" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+<error line="275" severity="warning" message="本行字符数 103个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="453" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="457" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="460" severity="warning" message="本行字符数 103个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="466" severity="info" message="TODO块： &apos;TODO|XXX&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+<error line="470" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="476" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="477" severity="info" message="TODO块： &apos;TODO|XXX&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+<error line="582" severity="warning" message="本行字符数 111个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="612" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="782" column="55" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+<error line="784" column="56" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/persistence/XMLModelReader.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/persistence/XMLModelWriter.java">
+<error line="15" severity="info" message="Javadoc 描述块不应为空。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/persistence/package-info.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/services/AbstractTCSObjectService.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/services/StandardDispatcherService.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/services/StandardNotificationService.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/services/StandardPlantModelService.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/services/StandardRouterService.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/services/StandardSchedulerService.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/services/StandardTCSObjectService.java">
+<error line="61" column="29" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+<error line="70" column="29" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/services/StandardTransportOrderService.java">
+<error line="102" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="109" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="194" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="200" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="204" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/services/StandardVehicleService.java">
+<error line="96" column="10" severity="warning" message="参数共： 8个，最多：7个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.ParameterNumberCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/vehicles/DefaultVehicleController.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="168" column="10" severity="warning" message="参数共： 8个，最多：7个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.ParameterNumberCheck"/>
+<error line="262" column="3" severity="warning" message="Return 次数 4 次（最大允許為void方法/構造函數/ 拉姆达： 1 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+<error line="337" severity="info" message="TODO块： &apos;TODO|XXX&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+<error line="338" severity="info" message="TODO块： &apos;TODO|XXX&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+<error line="340" severity="info" message="TODO块： &apos;TODO|XXX&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+<error line="405" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="545" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="687" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="730" severity="info" message="TODO块： &apos;TODO|XXX&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+<error line="784" column="44" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+<error line="785" column="45" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+<error line="825" column="3" severity="warning" message="Return 次数 4 次（最大允许非空虚方法/ 拉姆达： 3 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+<error line="996" severity="info" message="TODO块： &apos;TODO|XXX&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+<error line="1008" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="1026" column="26" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/vehicles/DefaultVehicleControllerPool.java">
+<error line="129" severity="info" message="TODO块： &apos;TODO|XXX&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+<error line="131" severity="warning" message="本行字符数 104个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="157" column="30" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/vehicles/LocalVehicleControllerPool.java">
+<error line="30" column="14" severity="info" message="&apos;IllegalArgumentException&apos;需要Javadoc注释 @throws 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/vehicles/NullVehicleController.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/vehicles/VehicleCommAdapterRegistry.java">
+<error line="45" column="32" severity="warning" message="Return 次数 4 次（最大允许非空虚方法/ 拉姆达： 3 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+<error line="146" column="27" severity="info" message="lambda 值周围不必要的小括号。" source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/vehicles/VehicleControllerFactory.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/workingset/Model.java">
+<error line="1" severity="warning" message="文件 2,933 行 （最多：2,000 行）。" source="com.puppycrawl.tools.checkstyle.checks.sizes.FileLengthCheck"/>
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="231" column="28" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+<error line="439" column="36" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+<error line="784" column="28" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+<error line="1052" column="35" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+<error line="1211" severity="info" message="TODO块： &apos;TODO|XXX&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+<error line="1241" column="34" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+<error line="1532" severity="info" message="TODO块： &apos;TODO|XXX&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+<error line="1579" severity="info" message="TODO块： &apos;TODO|XXX&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+<error line="1626" severity="info" message="TODO块： &apos;TODO|XXX&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+<error line="1645" severity="info" message="TODO块： &apos;TODO|XXX&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+<error line="1669" column="28" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+<error line="2288" column="36" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+<error line="2478" column="36" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+<error line="2636" column="36" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/workingset/NotificationBuffer.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/workingset/TCSObjectPool.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel/src/main/java/org/opentcs/kernel/workingset/TransportOrderPool.java">
+<error line="402" severity="warning" message="本行字符数 154个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="467" severity="warning" message="本行字符数 154个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1104" severity="info" message="TODO块： &apos;TODO|XXX&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+<error line="1197" column="50" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+</file>
+</checkstyle>

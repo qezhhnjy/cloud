@@ -1,0 +1,21 @@
+.Configuration options with prefix 'ssl'
+[cols="2,1,3", options="header"]
+|===
+|Key
+|Type
+|Description
+
+|enable
+|Boolean
+|Whether to use SSL to encrypt RMI connections to the kernel.
+
+|truststoreFile
+|String
+|The path to the SSL truststore.
+
+|truststorePassword
+|String
+|The password for the SSL truststore.
+
+|===
+

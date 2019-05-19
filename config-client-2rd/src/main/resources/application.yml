@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      label: master
+      profile: dev
+#      第一种配置方式：通过uri配置
+#      uri: http://localhost:8888/
+#      第二种配置方式：通过application.name配置
+      discovery:
+        enabled: true
+        service-id: config
+
+server:
+  port: 8886
+
+eureka:
+  client:
+    service-url:
+     defaultZone: http://localhost:8765/eureka/
+
+#springboot 1.5.X 以上默认开通了安全认证,所以使用/refresh刷新配置文件需要加上这个配置
+management:
+  security:
+    enabled: false
+

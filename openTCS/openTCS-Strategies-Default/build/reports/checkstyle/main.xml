@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.16">
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/AssignmentCandidate.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/DefaultDispatcher.java">
+<error line="66" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="68" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="70" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="72" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="73" severity="info" message="Javadoc 描述块不应为空。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="78" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="95" column="10" severity="warning" message="参数共： 10个，最多：7个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.ParameterNumberCheck"/>
+<error line="101" column="45" severity="info" message="&apos;fullDispatchTask&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="102" column="71" severity="info" message="&apos;periodicDispatchTaskProvider&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="103" column="59" severity="info" message="&apos;configuration&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="104" column="40" severity="info" message="&apos;rerouteUtil&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="302" column="3" severity="warning" message="Return 次数 5 次（最大允许非空虚方法/ 拉姆达： 3 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/DefaultDispatcherConfiguration.java">
+<error line="14" severity="info" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="155" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="156" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="157" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="158" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="161" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="162" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="163" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="164" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/FullDispatchTask.java">
+<error line="40" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="41" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="42" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="43" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="44" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="45" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="46" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="47" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="48" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="49" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="56" column="10" severity="warning" message="参数共： 10个，最多：7个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.ParameterNumberCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/ImplicitDispatchTrigger.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/OrderReservationPool.java">
+<error line="31" severity="warning" message="本行字符数 102个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="32" severity="warning" message="本行字符数 116个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/PeriodicVehicleRedispatchingTask.java">
+<error line="36" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="38" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/Phase.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/ProcessabilityChecker.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/RerouteUtil.java">
+<error line="63" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="122" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="468" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/TransportOrderUtil.java">
+<error line="127" column="3" severity="warning" message="Return 次数 4 次（最大允许非空虚方法/ 拉姆达： 3 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+<error line="248" column="3" severity="warning" message="Return 次数 4 次（最大允许非空虚方法/ 拉姆达： 3 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+<error line="315" column="34" severity="info" message="&apos;resetVehiclePosition&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="321" severity="warning" message="本行字符数 101个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="357" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="414" severity="info" message="TODO块： &apos;TODO|XXX&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+<error line="498" severity="warning" message="本行字符数 105个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/phase/AssignReservedOrdersPhase.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="33" severity="info" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="50" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/phase/AssignSequenceSuccessorsPhase.java">
+<error line="32" severity="info" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="45" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="98" severity="warning" message="本行字符数 102个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="99" severity="warning" message="本行字符数 101个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/phase/CheckNewOrdersPhase.java">
+<error line="28" severity="info" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="36" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/phase/FinishWithdrawalsPhase.java">
+<error line="26" severity="info" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="30" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/phase/assignment/AssignFreeOrdersPhase.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="48" severity="info" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="89" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="97" column="10" severity="warning" message="参数共： 11个，最多：7个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.ParameterNumberCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/phase/assignment/AssignNextDriveOrdersPhase.java">
+<error line="40" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="41" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="50" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/phase/parking/AbstractParkingPhase.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="149" severity="info" message="TODO块： &apos;TODO|XXX&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/phase/parking/AbstractParkingPositionSupplier.java">
+<error line="146" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="148" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="149" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/phase/parking/DefaultParkingPositionSupplier.java">
+<error line="53" column="3" severity="warning" message="Return 次数 5 次（最大允许非空虚方法/ 拉姆达： 3 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/phase/parking/ParkIdleVehiclesPhase.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/phase/parking/ParkingPositionPriorityComparator.java">
+<error line="38" column="3" severity="warning" message="Return 次数 4 次（最大允许非空虚方法/ 拉姆达： 3 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/phase/parking/ParkingPositionSupplier.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/phase/parking/ParkingPositionToPriorityFunction.java">
+<error line="35" column="3" severity="warning" message="Return 次数 4 次（最大允许非空虚方法/ 拉姆达： 3 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/phase/parking/PrioritizedParkingPhase.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/phase/parking/PrioritizedParkingPositionSupplier.java">
+<error line="68" column="3" severity="warning" message="Return 次数 4 次（最大允许非空虚方法/ 拉姆达： 3 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/phase/parking/PrioritizedReparkPhase.java">
+<error line="38" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="39" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="42" column="10" severity="warning" message="参数共： 8个，最多：7个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.ParameterNumberCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/phase/recharging/DefaultRechargePositionSupplier.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="90" column="3" severity="warning" message="Return 次数 6 次（最大允许非空虚方法/ 拉姆达： 3 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+<error line="110" severity="info" message="TODO块： &apos;TODO|XXX&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+<error line="119" severity="info" message="TODO块： &apos;TODO|XXX&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+<error line="211" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="212" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="274" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="276" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="277" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/phase/recharging/RechargeIdleVehiclesPhase.java">
+<error line="63" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="65" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="162" severity="info" message="TODO块： &apos;TODO|XXX&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/phase/recharging/RechargePositionSupplier.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/priorization/CompositeOrderCandidateComparator.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/priorization/CompositeOrderComparator.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/priorization/CompositeVehicleCandidateComparator.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/priorization/CompositeVehicleComparator.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/priorization/candidate/CandidateComparatorByCompleteRoutingCosts.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/priorization/candidate/CandidateComparatorByDeadline.java">
+<error line="30" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/priorization/candidate/CandidateComparatorByEnergyLevel.java">
+<error line="30" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/priorization/candidate/CandidateComparatorByInitialRoutingCosts.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/priorization/candidate/CandidateComparatorByOrderAge.java">
+<error line="30" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/priorization/candidate/CandidateComparatorByOrderName.java">
+<error line="29" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/priorization/candidate/CandidateComparatorByVehicleName.java">
+<error line="29" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/priorization/candidate/CandidateComparatorDeadlineAtRiskFirst.java">
+<error line="34" severity="warning" message="本行字符数 112个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/priorization/candidate/CandidateComparatorIdleFirst.java">
+<error line="30" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/priorization/transportorder/TransportOrderComparatorByAge.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/priorization/transportorder/TransportOrderComparatorByDeadline.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/priorization/transportorder/TransportOrderComparatorByName.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/priorization/transportorder/TransportOrderComparatorDeadlineAtRiskFirst.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/priorization/vehicle/VehicleComparatorByEnergyLevel.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/priorization/vehicle/VehicleComparatorByName.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/priorization/vehicle/VehicleComparatorIdleFirst.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/selection/AssignmentCandidateSelectionFilter.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/selection/CompositeAssignmentCandidateSelectionFilter.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/selection/CompositeParkVehicleSelectionFilter.java">
+<error line="17" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/selection/CompositeRechargeVehicleSelectionFilter.java">
+<error line="17" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/selection/CompositeReparkVehicleSelectionFilter.java">
+<error line="17" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/selection/CompositeTransportOrderSelectionFilter.java">
+<error line="17" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/selection/CompositeVehicleSelectionFilter.java">
+<error line="17" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/selection/FilterAssignmentCandidatesProcessable.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/selection/FilterTransportOrdersDispatchable.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/selection/FilterVehiclesAvailableForOrders.java">
+<error line="74" column="13" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/selection/FilterVehiclesIdleAndDegraded.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/selection/FilterVehiclesParkable.java">
+<error line="32" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/selection/FilterVehiclesReparkable.java">
+<error line="32" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/selection/ParkVehicleSelectionFilter.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/selection/RechargeVehicleSelectionFilter.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/selection/ReparkVehicleSelectionFilter.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/selection/TransportOrderSelectionFilter.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/dispatching/selection/VehicleSelectionFilter.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/recovery/DefaultRecoveryEvaluator.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="53" column="73" severity="info" message="&apos;configuration&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/recovery/DefaultRecoveryEvaluatorConfiguration.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/recovery/StaticRecoveryEvaluator.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/routing/DefaultRouter.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="202" column="11" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+<error line="313" severity="info" message="TODO块： &apos;TODO|XXX&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/routing/DefaultRouterConfiguration.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/routing/PointRouter.java">
+<error line="50" column="3" severity="info" message="多余修饰符： &apos;public&apos;。" source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/routing/PointRouterFactory.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/routing/jgrapht/AbstractPointRouterFactory.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/routing/jgrapht/BellmanFordPointRouterFactory.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/routing/jgrapht/DefaultModelGraphMapper.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/routing/jgrapht/DijkstraPointRouterFactory.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/routing/jgrapht/EdgeEvaluator.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/routing/jgrapht/EdgeEvaluatorComposite.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/routing/jgrapht/EdgeEvaluatorDistance.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/routing/jgrapht/EdgeEvaluatorExplicit.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/routing/jgrapht/EdgeEvaluatorHops.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/routing/jgrapht/EdgeEvaluatorTravelTime.java">
+<error line="34" column="31" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/routing/jgrapht/FloydWarshallPointRouterFactory.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/routing/jgrapht/ModelEdge.java">
+<error line="14" severity="info" message="Javadoc 描述块不应为空。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="21" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="23" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/routing/jgrapht/ModelGraphMapper.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/routing/jgrapht/ShortestPathConfiguration.java">
+<error line="46" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="47" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="48" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="49" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="51" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="62" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="63" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="64" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="65" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="66" column="5" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/routing/jgrapht/ShortestPathPointRouter.java">
+<error line="43" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="45" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="124" column="9" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/scheduling/AllocationAdvisor.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/scheduling/AllocatorCommand.java">
+<error line="48" column="3" severity="warning" message="Return 次数 5 次（最大允许非空虚方法/ 拉姆达： 3 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/scheduling/AllocatorTask.java">
+<error line="25" severity="info" message="缺少 @author 标签。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="60" column="59" severity="info" message="&apos;plantModelService&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="61" column="49" severity="info" message="&apos;reservationPool&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="62" column="66" severity="info" message="&apos;deferredAllocations&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="63" column="50" severity="info" message="&apos;allocationAdvisor&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="64" column="58" severity="info" message="&apos;kernelExecutor&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="65" column="50" severity="info" message="&apos;command&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="111" severity="info" message="TODO块： &apos;TODO|XXX&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/scheduling/DefaultScheduler.java">
+<error line="89" column="43" severity="info" message="&apos;reservationPool&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="147" severity="info" message="TODO块： &apos;TODO|XXX&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+<error line="201" severity="info" message="TODO块： &apos;TODO|XXX&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/scheduling/DummyScheduler.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/scheduling/ReservationEntry.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/scheduling/ReservationPool.java">
+<error line="22" severity="info" message="Javadoc 描述块不应为空。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/scheduling/modules/SameDirectionBlockModule.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="211" column="16" severity="info" message="return 值周围不必要的小括号。" source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+<error line="318" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Strategies-Default/src/main/java/org/opentcs/strategies/basic/scheduling/modules/SingleVehicleBlockModule.java">
+<error line="179" column="25" severity="info" message="lambda 值周围不必要的小括号。" source="com.puppycrawl.tools.checkstyle.checks.coding.UnnecessaryParenthesesCheck"/>
+</file>
+</checkstyle>

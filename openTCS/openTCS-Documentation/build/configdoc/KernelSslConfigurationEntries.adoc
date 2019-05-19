@@ -1,0 +1,25 @@
+.Configuration options with prefix 'ssl'
+[cols="2,1,3", options="header"]
+|===
+|Key
+|Type
+|Description
+
+|keystoreFile
+|String
+|The file url of the keystore.
+
+|keystorePassword
+|String
+|The password for the keystore.
+
+|truststoreFile
+|String
+|The file url of the truststore.
+
+|truststorePassword
+|String
+|The password for the truststore.
+
+|===
+

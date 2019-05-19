@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.16">
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-Statistics/src/main/java/org/opentcs/kernel/extensions/statistics/StatisticsCollector.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-Statistics/src/main/java/org/opentcs/kernel/extensions/statistics/StatisticsCollectorConfiguration.java">
+<error line="21" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-Statistics/src/main/java/org/opentcs/kernel/extensions/statistics/StatisticsEventLogger.java">
+<error line="65" column="3" severity="warning" message="Return 次数 2 次（最大允許為void方法/構造函數/ 拉姆达： 1 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+</file>
+</checkstyle>

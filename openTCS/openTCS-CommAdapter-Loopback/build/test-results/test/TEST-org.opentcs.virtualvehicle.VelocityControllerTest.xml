@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.opentcs.virtualvehicle.VelocityControllerTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2019-03-15T05:46:49" hostname="fuzy" time="0.382">
+  <properties/>
+  <testcase name="testThatInitialControllerHasNoWayEntries" classname="org.opentcs.virtualvehicle.VelocityControllerTest" time="0.009"/>
+  <testcase name="testNegativeAdvanceTimeShouldThrowException" classname="org.opentcs.virtualvehicle.VelocityControllerTest" time="0.001"/>
+  <testcase name="testCurrentWayEntryIsFirstEntryInQueue" classname="org.opentcs.virtualvehicle.VelocityControllerTest" time="0.003"/>
+  <testcase name="testVelocityListenerGetsNotifiedOnAdvanceTime" classname="org.opentcs.virtualvehicle.VelocityControllerTest" time="0.362"/>
+  <testcase name="testThatInitialControllerHasNoCurrentWayEntry" classname="org.opentcs.virtualvehicle.VelocityControllerTest" time="0.0"/>
+  <testcase name="testAccelerationToMaxVelocity" classname="org.opentcs.virtualvehicle.VelocityControllerTest" time="0.001"/>
+  <testcase name="testPausedVehicleDoesNotChangePosition" classname="org.opentcs.virtualvehicle.VelocityControllerTest" time="0.0"/>
+  <testcase name="testAddNullWayEntryShouldThrowException" classname="org.opentcs.virtualvehicle.VelocityControllerTest" time="0.0"/>
+  <testcase name="testAddNullVelocityListenerShouldThrowException" classname="org.opentcs.virtualvehicle.VelocityControllerTest" time="0.0"/>
+  <testcase name="testAdvanceTimeAdvancesTime" classname="org.opentcs.virtualvehicle.VelocityControllerTest" time="0.0"/>
+  <testcase name="testVelocityLimitOnWayEntryRestrictsMaxVelocityOfVehicle" classname="org.opentcs.virtualvehicle.VelocityControllerTest" time="0.001"/>
+  <testcase name="testCurrentWayEntryChangesOnAdvance" classname="org.opentcs.virtualvehicle.VelocityControllerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

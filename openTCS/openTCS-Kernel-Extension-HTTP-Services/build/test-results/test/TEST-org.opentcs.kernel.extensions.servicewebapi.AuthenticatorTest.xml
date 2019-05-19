@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.opentcs.kernel.extensions.servicewebapi.AuthenticatorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-03-15T05:47:08" hostname="fuzy" time="0.216">
+  <properties/>
+  <testcase name="allowRequestIfCorrectAccessKeyGiven" classname="org.opentcs.kernel.extensions.servicewebapi.AuthenticatorTest" time="0.212"/>
+  <testcase name="allowRequestsIfNoAccessKeyConfigured" classname="org.opentcs.kernel.extensions.servicewebapi.AuthenticatorTest" time="0.001"/>
+  <testcase name="disallowRequestIfWrongAccessKeyGiven" classname="org.opentcs.kernel.extensions.servicewebapi.AuthenticatorTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

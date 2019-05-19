@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.opentcs.kernel.extensions.xmlhost.orders.binding.TCSResponseSetTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-03-15T05:47:12" hostname="fuzy" time="0.074">
+  <properties/>
+  <testcase name="shouldOutputSampleScriptResponseSet" classname="org.opentcs.kernel.extensions.xmlhost.orders.binding.TCSResponseSetTest" time="0.05"/>
+  <testcase name="shouldOutputSampleResponseSet" classname="org.opentcs.kernel.extensions.xmlhost.orders.binding.TCSResponseSetTest" time="0.023"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[三月 15, 2019 1:47:12 下午 org.opentcs.kernel.extensions.xmlhost.orders.binding.TCSResponseSetTest shouldOutputSampleScriptResponseSet
+信息: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tcsResponseSet>
+    <response xsi:type="scriptResponse" parsingSuccessful="true" id="test.tcs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <transport executionSuccessful="true" orderName="TOrder-0003" id="test.tcs"/>
+        <transport executionSuccessful="true" orderName="TOrder-0004" id="test.tcs"/>
+    </response>
+</tcsResponseSet>
+
+三月 15, 2019 1:47:12 下午 org.opentcs.kernel.extensions.xmlhost.orders.binding.TCSResponseSetTest shouldOutputSampleResponseSet
+信息: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tcsResponseSet>
+    <response xsi:type="transportResponse" executionSuccessful="true" orderName="TOrder-0001" id="TransportOrder-01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+    <response xsi:type="transportResponse" executionSuccessful="true" orderName="TOrder-0002" id="TransportOrder-02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+</tcsResponseSet>
+
+]]></system-err>
+</testsuite>

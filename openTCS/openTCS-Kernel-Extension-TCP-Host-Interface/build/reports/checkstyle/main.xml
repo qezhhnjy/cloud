@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.16">
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-TCP-Host-Interface/src/main/java/org/opentcs/kernel/extensions/xmlhost/XMLHostInterfaceConfiguration.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-TCP-Host-Interface/src/main/java/org/opentcs/kernel/extensions/xmlhost/orders/ScriptFileManager.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-TCP-Host-Interface/src/main/java/org/opentcs/kernel/extensions/xmlhost/orders/XMLTelegramOrderReceiver.java">
+<error line="294" column="7" severity="warning" message="禁止捕获： &apos;Exception&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalCatchCheck"/>
+<error line="398" column="21" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+<error line="468" severity="info" message="TODO块： &apos;TODO|XXX&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-TCP-Host-Interface/src/main/java/org/opentcs/kernel/extensions/xmlhost/orders/binding/Destination.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-TCP-Host-Interface/src/main/java/org/opentcs/kernel/extensions/xmlhost/orders/binding/Property.java">
+<error line="14" severity="info" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="16" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="41" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="51" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="60" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="70" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-TCP-Host-Interface/src/main/java/org/opentcs/kernel/extensions/xmlhost/orders/binding/ScriptResponse.java">
+<error line="43" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="53" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="62" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="72" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-TCP-Host-Interface/src/main/java/org/opentcs/kernel/extensions/xmlhost/orders/binding/TCSOrder.java">
+<error line="35" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="45" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-TCP-Host-Interface/src/main/java/org/opentcs/kernel/extensions/xmlhost/orders/binding/TCSOrderSet.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-TCP-Host-Interface/src/main/java/org/opentcs/kernel/extensions/xmlhost/orders/binding/TCSResponse.java">
+<error line="35" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="45" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-TCP-Host-Interface/src/main/java/org/opentcs/kernel/extensions/xmlhost/orders/binding/TCSResponseSet.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-TCP-Host-Interface/src/main/java/org/opentcs/kernel/extensions/xmlhost/orders/binding/TCSScriptFile.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-TCP-Host-Interface/src/main/java/org/opentcs/kernel/extensions/xmlhost/orders/binding/Transport.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-TCP-Host-Interface/src/main/java/org/opentcs/kernel/extensions/xmlhost/orders/binding/TransportResponse.java">
+<error line="40" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="50" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="59" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="69" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-TCP-Host-Interface/src/main/java/org/opentcs/kernel/extensions/xmlhost/orders/binding/TransportScript.java">
+<error line="36" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="46" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-TCP-Host-Interface/src/main/java/org/opentcs/kernel/extensions/xmlhost/orders/binding/package-info.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-TCP-Host-Interface/src/main/java/org/opentcs/kernel/extensions/xmlhost/orders/package-info.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-TCP-Host-Interface/src/main/java/org/opentcs/kernel/extensions/xmlhost/status/ConnectionCommand.java">
+<error line="21" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="23" column="3" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="30" column="3" severity="warning" message="Return 次数 5 次（最大允许非空虚方法/ 拉姆达： 3 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-TCP-Host-Interface/src/main/java/org/opentcs/kernel/extensions/xmlhost/status/ConnectionHandler.java">
+<error line="36" severity="info" message="缺少 @author 标签。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="75" column="28" severity="info" message="&apos;messageSeparator&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-TCP-Host-Interface/src/main/java/org/opentcs/kernel/extensions/xmlhost/status/StatusMessageDispatcher.java">
+<error line="156" severity="warning" message="本行字符数 103个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-TCP-Host-Interface/src/main/java/org/opentcs/kernel/extensions/xmlhost/status/binding/Destination.java">
+<error line="21" severity="info" message="缺少 @author 标签。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-TCP-Host-Interface/src/main/java/org/opentcs/kernel/extensions/xmlhost/status/binding/OrderStatusMessage.java">
+<error line="142" column="46" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+<error line="167" column="3" severity="warning" message="Return 次数 6 次（最大允许非空虚方法/ 拉姆达： 3 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+<error line="233" column="5" severity="warning" message="Return 次数 8 次（最大允许非空虚方法/ 拉姆达： 3 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-TCP-Host-Interface/src/main/java/org/opentcs/kernel/extensions/xmlhost/status/binding/Property.java">
+<error line="13" severity="info" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="15" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="35" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="45" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="54" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+<error line="64" severity="info" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-TCP-Host-Interface/src/main/java/org/opentcs/kernel/extensions/xmlhost/status/binding/StatusMessage.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-TCP-Host-Interface/src/main/java/org/opentcs/kernel/extensions/xmlhost/status/binding/TCSStatusMessageSet.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-TCP-Host-Interface/src/main/java/org/opentcs/kernel/extensions/xmlhost/status/binding/VehicleStatusMessage.java">
+<error line="173" column="45" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+<error line="175" column="46" severity="info" message="避免三元表达式。" source="com.puppycrawl.tools.checkstyle.checks.coding.AvoidInlineConditionalsCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-TCP-Host-Interface/src/main/java/org/opentcs/kernel/extensions/xmlhost/status/binding/package-info.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-Kernel-Extension-TCP-Host-Interface/src/main/java/org/opentcs/kernel/extensions/xmlhost/status/package-info.java">
+</file>
+</checkstyle>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" type="text/css"
+        href="/css/bootstrap-4.1.1-dist/css/bootstrap.css"/>
+  <script type="text/javascript"
+          src="/js/jquery-3.3.1.js"></script>
+  <script type="text/javascript" src="/js/girl.js"></script>
+  <style type="text/css">
+    .w-25 {
+      border: 5px solid #fff;
+    }
+  </style>
+</head>
+<body>
+<div class="jumbotron">
+  <h2 class="bg-light">Hello Girls!</h2>
+</div>
+
+<div class="w-25 card bg-primary text-white">
+  <h3>查询所有女生</h3>
+</div>
+<div class="w-25" id="all"></div>
+<div style="border: 5px solid #fff">
+  <input id="query" class="btn btn-info" type="button" value="查询"/>
+</div>
+
+<div class="w-25 card bg-primary text-white">
+  <h3>添加女生</h3>
+</div>
+<p id="the"></p>
+<div class="w-25">
+  <label class="text-primary font-weight-bold" for="cup">罩杯：</label><input id="cup" class="form-control" name="cup"
+                                                                           type="text" value="D"/>
+  <label class="text-primary font-weight-bold" for="age">年龄：</label><input id="age" class="form-control" name="age"
+                                                                           type="text" value="20"/><br/>
+  <input id="add" class="btn btn-info" type="button" value="添加"/>
+</div>
+
+<div class="w-25 card bg-primary text-white">
+  <h3>查询单个女生</h3>
+</div>
+<p id="select"></p>
+<div class="w-25 input-group mb-3">
+  <input id="id" class="form-control" name="id" type="text" placeholder="Girl ID"/>
+  <div class="input-group-append">
+    <input id="find" class="btn btn-info" type="button" value="查询"/>
+  </div>
+</div>
+
+<div class="w-25 card bg-primary text-white">
+  <h3>更新女生</h3>
+</div>
+<p class="text-success" id="update_p"></p>
+<p class="text-danger" id="update_none"></p>
+<div class="w-25">
+  <label class="text-primary font-weight-bold" for="update_id">请输入女生ID：</label>
+  <input class="form-control" id="update_id" type="text" value="1"/>
+  <label class="text-primary font-weight-bold" for="update_cup">女生罩杯：</label>
+  <input class="form-control" id="update_cup" type="text"/>
+  <label class="text-primary font-weight-bold" for="update_age">女生年龄：</label>
+  <input class="form-control" id="update_age" type="text"/><br/>
+  <input id="update" class="btn btn-info" type="button" value="更新"/>
+</div>
+
+
+<div class="w-25 card bg-primary text-white">
+  <h3>删除女生</h3>
+</div>
+<p id="delete_p"></p>
+<div class="w-25 input-group mb-3">
+  <input class="form-control" id="delete_id" type="text" placeholder="Girl ID"/>
+  <div class="input-group-append">
+    <input id="delete" class="btn btn-info" type="button" value="删除"/>
+  </div>
+</div>
+
+
+<div class="w-25 card bg-primary text-white">
+  <h3>通过年龄查询</h3>
+</div>
+<p id="age_p"></p>
+<div class="w-25 input-group mb-3">
+  <input class="form-control" id="age_age" type="text" placeholder="Girl age"/>
+  <div class="input-group-append">
+    <input id="age_query" class="btn btn-info" type="button" value="查询"/>
+  </div>
+</div>
+
+</body>
+</html>

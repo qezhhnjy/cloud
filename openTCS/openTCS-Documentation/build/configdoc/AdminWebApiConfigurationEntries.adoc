@@ -1,0 +1,21 @@
+.Configuration options with prefix 'adminwebapi'
+[cols="2,1,3", options="header"]
+|===
+|Key
+|Type
+|Description
+
+|enable
+|Boolean
+|Whether to enable the admin interface.
+
+|bindAddress
+|IP address
+|Address to which to bind the HTTP server, e.g. 0.0.0.0. (Default: 127.0.0.1.)
+
+|bindPort
+|Integer
+|Port to which to bind the HTTP server.
+
+|===
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.16">
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-KernelControlCenter/src/guiceConfig/java/org/opentcs/kernelcontrolcenter/DefaultKernelControlCenterExtensionsModule.java">
+<error line="1" severity="info" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-KernelControlCenter/src/guiceConfig/java/org/opentcs/kernelcontrolcenter/DefaultKernelControlCenterInjectionModule.java">
+<error line="57" severity="warning" message="本行字符数 109个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-KernelControlCenter/src/guiceConfig/java/org/opentcs/kernelcontrolcenter/LoopbackCommAdapterPanelsModule.java">
+</file>
+<file name="/home/fuzy/IdeaProjects/openTCS/openTCS-KernelControlCenter/src/guiceConfig/java/org/opentcs/kernelcontrolcenter/RunKernelControlCenter.java">
+</file>
+</checkstyle>

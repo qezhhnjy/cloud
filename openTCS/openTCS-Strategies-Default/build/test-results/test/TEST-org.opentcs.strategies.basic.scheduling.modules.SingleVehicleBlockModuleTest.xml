@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.opentcs.strategies.basic.scheduling.modules.SingleVehicleBlockModuleTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-03-15T05:47:36" hostname="fuzy" time="0.005">
+  <properties/>
+  <testcase name="shouldAllowAllocationForUnoccupiedBlock" classname="org.opentcs.strategies.basic.scheduling.modules.SingleVehicleBlockModuleTest" time="0.003"/>
+  <testcase name="shouldAllowAllocatioForNonBlocks" classname="org.opentcs.strategies.basic.scheduling.modules.SingleVehicleBlockModuleTest" time="0.0"/>
+  <testcase name="shouldDenyAllocationForOccupiedBlock" classname="org.opentcs.strategies.basic.scheduling.modules.SingleVehicleBlockModuleTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
